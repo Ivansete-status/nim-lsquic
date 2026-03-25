@@ -5,6 +5,7 @@ description = "Nim wrapper around the lsquic library"
 license = "MIT"
 installDirs = @["libs", "scripts"]
 installFiles = @["lsquic.nim", "boringssl.nim"]
+skipDirs = @["libs/var_boringssl/pki/testdata"]
 
 requires "nim >= 2.0.0"
 requires "zlib"
